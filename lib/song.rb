@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def self.count
-  
+  @@songs.size
 end
 
 end
