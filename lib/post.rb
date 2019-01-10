@@ -1,14 +1,14 @@
 class Post
   attr_accessor :author, :title
-  @@posts = []
+  @@all = []
   
   def initialize(data)
     @title = data
-    @@posts << self
+    @@all << self
   end
   
   def self.count
-    @@posts.size
+    @@all.size
   end
 
 end
