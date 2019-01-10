@@ -4,13 +4,13 @@ class Song
   
   @@songs = []
   
-def initialize(name)
-  @name = name
-  @@songs << self
-end
-
-def self.count
-  @@songs.size
-end
+  def initialize(name)
+    @name = name
+    @@songs << self
+  end
+  
+  def self.count
+    @@songs.size
+  end
 
 end
