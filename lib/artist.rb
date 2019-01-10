@@ -1,6 +1,7 @@
 class Artist
   
-  def intitialize(name)
+  
+  def intitialize
     @name = name
   end
   
