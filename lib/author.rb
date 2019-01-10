@@ -9,12 +9,12 @@ class Author
   
   def add_post(new_post)
     self.posts << new_post
-    new_post.author_name = self
+    new_post.author = self
   end
   
   def add_post_by_title(post_title)
     new_post = Post.new(post_title)
-    new_post.author_name = self
+    new_post.author = self
     self.posts << new_post
   end
   
