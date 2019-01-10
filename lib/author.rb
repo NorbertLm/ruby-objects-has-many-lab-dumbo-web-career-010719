@@ -17,5 +17,9 @@ class Author
     new_post.author = self
     self.posts << new_post
   end
-
+  
+  def post_count
+    Post.count
+  end
+  
 end
