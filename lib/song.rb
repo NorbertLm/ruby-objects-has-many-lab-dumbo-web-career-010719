@@ -9,4 +9,8 @@ def initialize(name)
   @@songs << self
 end
 
+def self.count
+  
+end
+
 end
